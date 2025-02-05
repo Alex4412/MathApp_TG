@@ -35,8 +35,8 @@ int I = 0, Stop = 0;
 
 int main() {
 
-    //Bot bot("5117515650:AAGP9Z9m3IFurSIJCxuLvVbHbgwfQFNwKlE"); /// тестовый бот
-    Bot bot("5022579824:AAE0610-5i3jE_EBZfvsx68XJC2QgPS5Uy0"); /// основной бот
+    //Bot bot("----"); /// тестовый бот
+    Bot bot("----"); /// основной бот
 
     bot.getEvents().onCommand("start", [&bot](Message::Ptr message) {
         try {
